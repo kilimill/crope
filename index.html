@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Crope</title>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Poppins:wght@300;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/libs.min.css">
@@ -13,7 +13,7 @@
 
 <body>
 
-  <section class="page-top">
+  <div class="page-top">
     <div class="video">
       <video class="video__media" src="images/video-top.mp4" autoplay muted loop></video>
     </div>
@@ -22,108 +22,139 @@
         <div class="container">
           <div class="header__content">
             <div class="header__inner">
-
-              <nav class="menu">
-                <a class="logo" href="#">
-                  <img src="images/logo.png" alt="">
+              <a class="logo" href="#">
+                <img src="images/logo.png" alt="">
+              </a>
+              <div class="header__drop" id="header__drop">
+                <nav class="menu">
+                  <ul class="menu__list">
+                    <li class="menu__list-item">
+                      <a href="#">
+                        Services
+                      </a>
+                    </li>
+                    <li class="menu__list-item">
+                      <a href="#">
+                        Cases
+                      </a>
+                    </li>
+                    <li class="menu__list-item">
+                      <a href="#">
+                        Contact us
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+                <a class="header__phone" href="tel:883510009990023">
+                  +88 351 000 999 0023
                 </a>
-                <ul class="menu__list">
-                  <li class="menu__list-item">
-                    <a href="#">
-                      Services
-                    </a>
-                  </li>
-                  <li class="menu__list-item">
-                    <a href="#">
-                      Cases
-                    </a>
-                  </li>
-                  <li class="menu__list-item">
-                    <a href="#">
-                      Contact us
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-              <a class="header__phone" href="tel:883510009990023">
-                +88 351 000 999 0023
+              </div>
+              <a class="burger__menu" href="#header__drop">
+                <div class="menu__row"></div>
+                <div class="menu__row"></div>
+                <div class="menu__row"></div>
               </a>
             </div>
           </div>
         </div>
       </header>
 
-      <section class="head">
+      <main class="head">
         <div class="container">
+
           <div class="head__inner">
-            <div class="head__titles">
+            <div class="head__content">
+              <div class="head__titles">
 
-              <div class="title title-first">
-                <div class="title title-first" id="tre-1">
-                  <span class="">
-                    Official
-                  </span>
+                <div class="title title-first">
+                  <div class="title title-first" id="tre-1">
+                    <p>
+                      Official
+                    </p>
+                  </div>
+                  <span class="element-1"></span>
+
                 </div>
-                <span class="element-1"></span>
-
-              </div>
 
 
-              <div class="title title-second">
+                <div class="title-second">
 
-                <div class="tre" id="tre-2">
-                  <p class="title title-second">
-                    Guaranteed
-                  </p>
+                  <div class="tre" id="tre-2">
+                    <p>
+                      Guaranteed
+                    </p>
+                  </div>
+                  <span class="element-2"></span>
                 </div>
-                <span class="element-2"></span>
-              </div>
 
-              <div class="title title-three">
+                <div class="title-three">
 
-                <div class="tre" id="tre-3">
-                  <p class="title title-three">
-                    Result
-                  </p>
+                  <div class="tre" id="tre-3">
+                    <p>
+                      Result
+                    </p>
+                  </div>
+                  <span class="element-3"></span>
                 </div>
-                <span class="element-3"></span>
-              </div>
 
-              <div class="title__text">
+                <div class="title__text title__text-position">
 
-                <div class="tre" id="tre-4">
-                  <p class="title__text">
-                    For
-                  </p>
+                  <div class="tre" id="tre-4">
+                    <p>
+                      For
+                    </p>
+                  </div>
+                  <span class="element-4"></span>
                 </div>
-                <span class="element-4"></span>
-              </div>
 
-              <div class="title__text">
+                <div class="title__text">
 
-                <div class="tre" id="tre-5">
-                  <p class="title__text">
-                    Seo
-                  </p>
-                  <p class="title__text">
-                    PPC
-                  </p>
-                  <p class="title__text">
-                    SERM
-                  </p>
+                  <div class="tre" id="tre-5">
+                    <p>
+                      Seo
+                    </p>
+                    <p class="title__text">
+                      PPC
+                    </p>
+                    <p class="title__text">
+                      SERM
+                    </p>
+                  </div>
+                  <span class="element-5"></span>
                 </div>
-                <span class="element-5"></span>
               </div>
-
+              <a class="head__link" href="#">
+                FREE SEO AUDIT
+              </a>
 
             </div>
-            <a class="head__link" href="#">
-              FREE SEO AUDIT
-            </a>
+
+            <div class="about">
+              <p class="about__text">
+                Our professionals develop new technologies
+                uniquely for your business, taking into account its
+                specifics and goals.
+              </p>
+              <p class="header__info-text">
+                Marina Bay Financial Centre Tower 1 | Level 11, 8 Marina Blvd, Singapore 018981
+              </p>
+            </div>
           </div>
-      </section>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+      </main>
     </div>
-  </section>
+  </div>
 
 
 
@@ -131,7 +162,6 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/typed.min.js"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script> -->
   <script src="js/libs.min.js"></script>
 
   <script src="js/main.js"></script>
